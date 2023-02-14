@@ -2,15 +2,22 @@
 
 // 1.	Realizar un programa que permita leer 2 números diferentes y nos diga cual es el mayor de los 2 números.
 
-let num1=Number(prompt("Ingrese el numero 1"));
-let num2=Number(prompt("Ingrese el numero 2"));
+// let num1=Number(prompt("Ingrese el numero 1"));
+// let num2=Number(prompt("Ingrese el numero 2"));
 
-(num1>num2)?alert(`el ${num1} es mayor a ${num2}`):alert(`el ${num2} es mayor a ${num1}`);
+// (num1>num2)?alert(`el ${num1} es mayor a ${num2}`):alert(`el ${num2} es mayor a ${num1}`);
 
 
 // 2.	Realice un programa que calcule el máximo de N números leídos desde teclado.
 
+
+
+
 // 3.	Realizar un programa que pueda sumar dos números leídos por teclado y escribir el resultado.	
+let num1=Number(prompt("Ingrese el numero 1"));
+let num2=Number(prompt("Ingrese el numero 2"));
+let resultado=num1+num2;
+alert(`La suma de los numeros ingresados es: ${resultado}`);
 
 
 // 4.	Realizar un programa de procesos en el que se almacenen 3 números en 3 variables A, B y C. El diagrama debe decidir cual es el mayor y cual es el menor
