@@ -12,6 +12,7 @@ let num2=Number(prompt("Ingrese el numero 2"));
 
 // 3.	Realizar un programa que pueda sumar dos números leídos por teclado y escribir el resultado.	
 
+
 // 4.	Realizar un programa de procesos en el que se almacenen 3 números en 3 variables A, B y C. El diagrama debe decidir cual es el mayor y cual es el menor
 
 // 5.	Realizar un programa que permita escribir los 100 primeros pares.
