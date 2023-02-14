@@ -23,15 +23,20 @@
 // 4.	Realizar un programa de procesos en el que se almacenen 3 números en 3 variables A, B y C. El diagrama debe decidir cual es el mayor y cual es el menor
 
 //SE APLICA FUNCION DE LA LIBRERIA MATH PARA HALLAR LOS VALORES SOLICITADOS.
-let num1=Number(prompt("Ingrese el numero 1"));
-let num2=Number(prompt("Ingrese el numero 2"));
-let num3=Number(prompt("Ingrese el numero 3"));
-alert(`El numero mayor es: `+Math.max(num1,num2,num3));
-alert(`El numero menor es: `+Math.min(num1,num2,num3));
+// let num1=Number(prompt("Ingrese el numero 1"));
+// let num2=Number(prompt("Ingrese el numero 2"));
+// let num3=Number(prompt("Ingrese el numero 3"));
+// alert(`El numero mayor es: `+Math.max(num1,num2,num3));
+// alert(`El numero menor es: `+Math.min(num1,num2,num3));
 
 // 5.	Realizar un programa que permita escribir los 100 primeros pares.
 
-
+let par;
+for (let i = 2; i <= 100; i++) {
+    if(i%2==0){
+        alert(i)
+    }
+}
 
 // 6.	Realizar un programa que lea N números, calcule y escriba la suma de los pares y el producto de los impares.
 
